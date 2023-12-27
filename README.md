@@ -15,18 +15,6 @@ set of consistent versions to use.
 [![Build Status](https://travis-ci.org/FasterXML/jackson-bom.svg)](https://travis-ci.org/FasterXML/jackson-bom)
 [![Tidelift](https://tidelift.com/badges/package/maven/com.fasterxml.jackson:jackson-bom)](https://tidelift.com/subscription/pkg/maven-com-fasterxml-jackson-jackson-bom?utm_source=maven-com-fasterxml-jackson-jackson-bom&utm_medium=referral&utm_campaign=readme)
 
-## Usage
-
-There are two ways to use the BOM pom: either as parent pom:
-
-```xml
-  <parent>
-    <groupId>com.fasterxml.jackson</groupId>
-    <artifactId>jackson-bom</artifactId>
-    <version>2.16.1</version>
-  </parent>
-```
-
 or by importing the BOM to get versions via so-called "managed dependencies"
 (NOTE: BOM can NOT be used as an explicit dependency; it MUST be either parent pom
 or imported in `<dependencyManagement>` section)

@@ -8,7 +8,7 @@ For more on concept of BOMs, see:
 
 But the basic idea is that instead of specifying version explicitly for every Jackson
 component, as part of dependency definition, one can use a BOM to get a full, complete
-set of consistent versions to use.
+
 
 ## Status
 
